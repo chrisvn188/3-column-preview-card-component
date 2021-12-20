@@ -36,33 +36,33 @@ body {
   padding: 3em;
 }
 
-.card-1 {
+.card--orange {
   background-color: var(--bright-orange);
   border-radius: 10px 10px 0 0;
 }
 
-.card-2 {
+.card--dark-cyan {
   background-color: var(--dark-cyan);
 }
 
-.card-3 {
+.card--very-dark-cyan {
   background-color: var(--very-dark-cyan);
   border-radius: 0 0 10px 10px;
 }
 
-.card-heading {
+.card__heading {
   font-family: 'Big Shoulders Display', serif;
   font-size: 2rem;
   text-transform: uppercase;
   color: var(--very-light-gray);
 }
 
-.card-paragraph {
+.card__paragraph {
   padding-right: 1em;
   color: var(--transparent-white);
 }
 
-.card-link {
+.card__link {
   padding: 0.8em 2em;
   background-color: var(--very-light-gray);
   border-radius: 2em;
@@ -71,21 +71,21 @@ body {
   margin-top: 1em;
 }
 
-.card-link:hover {
+.card__link:hover {
   background-color: transparent;
   outline: 2px solid var(--very-light-gray);
   color: var(--very-light-gray);
 }
 
-.link-1 {
+.link--1 {
   color: var(--bright-orange);
 }
 
-.link-2 {
+.link--2 {
   color: var(--dark-cyan);
 }
 
-.link-3 {
+.link--3 {
   color: var(--very-dark-cyan);
 }
 
@@ -98,15 +98,15 @@ body {
     margin: 0;
   }
 
-  .card-1 {
+  .card--orange {
     border-radius: 10px 0 0 10px;
   }
 
-  .card-3 {
+  .card--very-dark-cyan {
     border-radius: 0 10px 10px 0;
   }
 
-  .card-link {
+  .card__link {
     margin-top: 5em;
   }
 }
